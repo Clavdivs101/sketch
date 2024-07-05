@@ -37,5 +37,10 @@ for (let i = 1; i <= getValue(); i++){
 
 
 generateBtn.addEventListener("click", () => {
+    if(getValue() > 100){
+        alert('The limit is 100')
+    }else if (getValue() <= 100){
     generateGrid(getValue());
-})
+        }
+    }
+)
