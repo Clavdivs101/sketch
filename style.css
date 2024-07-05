@@ -1,0 +1,13 @@
+.grid{
+    margin-top: 20px;
+    display: flex;
+    /* width: 192px; */
+    flex-wrap: wrap;
+}
+  .grid-item {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 10px;
+    height: 10px;
+  }
