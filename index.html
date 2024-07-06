@@ -2,18 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sketch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="gridMenu">
+    <div>Enter grid size (limit is 70)</div>
     <input id="myInput" type="text">
     <button id="generate">Generate Grid</button>
+    </div>
+    
+    <div class="colors" id="colors">
+    <button id="blackBtn">Black</button>
+    <button id="chaosBtn">Chaos</button>
+    <button id="eraserBtn">Eraser</button>
+    <button id="resetBtn">Reset</button>
+    </div>
 
 
 
     
     <div class="grid" id="gridContainer"></div>
+
+    
     
 
     <script src="script.js"></script>

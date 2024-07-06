@@ -11,3 +11,11 @@
     width: 10px;
     height: 10px;
   }
+
+  .colors{
+    margin-top: 5px;
+  }
+  
+  #resetBtn{
+    margin-left: 68px;
+  }
